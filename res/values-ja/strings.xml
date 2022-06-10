@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_full_name" formatted="false">BatteryBot Pro</string>
+  <string name="app_full_name" formatted="false">LeOS Battery</string>
   <string name="app_launcher_name" formatted="false">BatteryBot</string>
   <string name="settings_activity_subtitle" formatted="false">設定</string>
   <string name="help_activity_subtitle" formatted="false">ヘルプ</string>
@@ -168,7 +168,7 @@
   <string name="custom" formatted="false">カスタマイズ...</string>
   <string name="pref_cat_icon_set" formatted="false">アイコンセット</string>
   <string name="pref_icon_set" formatted="false">アイコンセット</string>
-  <string name="pref_icon_set_help" formatted="false">Android は多くの種類があるため、すべてのデバイス上でうまく動作する完全な アイコンセットはありません。プロ ユーザーは、より多くのオプションを含んだ プラグインを使用することができますが、ほぼすべてのデバイスに対して 少なくとも一つは良いオプションを提供しなければならないため、 3 つの組み込みアイコンセットがあります。\n\n\"クラシック\" は、2009年からのオリジナルアイコンセットです。 古いデバイスで使用する場合は最高の選択ですが、新しいバージョンの Android (Android 3.0, Honeycom 以降) では通知アイコンが小さく、 暗くなり、非常に見づらくなります。\n\n\"数字のみ\" は、すべての新しい Android デバイスのデフォルトです。 小さく、暗く表示された後に、非常に大きな白い数字で、 はっきり表示されます。 充電中は数字の下に稲妻が表示されます。\n\n\"小さい数字\" は \"数字のみ\" の小さいものです。 いくつかの新しいデバイスでは、これまでの Android のようにアイコンが 小さくならないため、\"数字のみ\" では非常に大きな数字が コミカルに表示されます。\n\nもしあなたが BatteryBot Pro のアイコン プラグインを インストールされると、これら中から選択することができます (メニューボタンを押して、プラグインを入手 から、無料のプラグインを 入手することができます。または新しいデバイスではアクションバーで プラグインを入手 ボタンを押してください)。</string>
+  <string name="pref_icon_set_help" formatted="false">Android は多くの種類があるため、すべてのデバイス上でうまく動作する完全な アイコンセットはありません。プロ ユーザーは、より多くのオプションを含んだ プラグインを使用することができますが、ほぼすべてのデバイスに対して 少なくとも一つは良いオプションを提供しなければならないため、 3 つの組み込みアイコンセットがあります。\n\n\"クラシック\" は、2009年からのオリジナルアイコンセットです。 古いデバイスで使用する場合は最高の選択ですが、新しいバージョンの Android (Android 3.0, Honeycom 以降) では通知アイコンが小さく、 暗くなり、非常に見づらくなります。\n\n\"数字のみ\" は、すべての新しい Android デバイスのデフォルトです。 小さく、暗く表示された後に、非常に大きな白い数字で、 はっきり表示されます。 充電中は数字の下に稲妻が表示されます。\n\n\"小さい数字\" は \"数字のみ\" の小さいものです。 いくつかの新しいデバイスでは、これまでの Android のようにアイコンが 小さくならないため、\"数字のみ\" では非常に大きな数字が コミカルに表示されます。\n\nもしあなたが LeOS Battery のアイコン プラグインを インストールされると、これら中から選択することができます (メニューボタンを押して、プラグインを入手 から、無料のプラグインを 入手することができます。または新しいデバイスではアクションバーで プラグインを入手 ボタンを押してください)。</string>
   <string name="pref_cat_current_hack_main" formatted="false">メイン コントロール</string>
   <string name="pref_cat_current_hack_unsupported" formatted="false">電流 (mA) ハックはサポートされていません</string>
   <string name="pref_current_hack_unsupported" formatted="false">申し訳ありません、このデバイスで電流 (mA) ハックはサポートされていません。</string>
@@ -219,7 +219,7 @@
   <string name="predictor_long_term_ave" formatted="false">長期平均</string>
   <string name="pref_cat_predictor" formatted="false">残時間の見積</string>
   <string name="pref_prediction_type" formatted="false">見積の種類</string>
-  <string name="pref_prediction_type_help" formatted="false">ここでは、バッテリーのフル充電からの残量/残時間を BatteryBot Pro が予測する方法を選択することができます。\n\n\"高感度\" アルゴリズムは、厳密に直近の5分間の使用量に基づいて求めます。 主に \"あとどのくらい今の操作を続けることができるか?\" に関心がある場合は、このアルゴリズムをご利用ください。\n\"保守的\" なアルゴリズムがデフォルトです。最近の使用状況に 基づいていますが、長期的な平均の使用状況から あまり大きく変化しないようにします\n\n厳密に現在のセッションに基づいて予測するには、 \"ステータスが変わってから\" を選択してください。\n\n最終的に、長期的な平均の使用状況のみに基づいて、 予測することができます。</string>
+  <string name="pref_prediction_type_help" formatted="false">ここでは、バッテリーのフル充電からの残量/残時間を LeOS Battery が予測する方法を選択することができます。\n\n\"高感度\" アルゴリズムは、厳密に直近の5分間の使用量に基づいて求めます。 主に \"あとどのくらい今の操作を続けることができるか?\" に関心がある場合は、このアルゴリズムをご利用ください。\n\"保守的\" なアルゴリズムがデフォルトです。最近の使用状況に 基づいていますが、長期的な平均の使用状況から あまり大きく変化しないようにします\n\n厳密に現在のセッションに基づいて予測するには、 \"ステータスが変わってから\" を選択してください。\n\n最終的に、長期的な平均の使用状況のみに基づいて、 予測することができます。</string>
   <string name="lang_system_selected" formatted="false">システムで選択</string>
   <string name="pref_cat_language" formatted="false">言語</string>
   <string name="pref_language_override" formatted="false">言語の上書き</string>

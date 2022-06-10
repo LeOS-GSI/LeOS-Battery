@@ -15,8 +15,8 @@ buildscript {
 
 apply plugin: 'com.android.application'
 
-Properties secureProperties = new Properties()
-secureProperties.load(new FileInputStream("secure.properties"))
+//Properties secureProperties = new Properties()
+//secureProperties.load(new FileInputStream("secure.properties"))
 
 android {
     compileSdkVersion 31
@@ -72,18 +72,18 @@ android {
         disable 'MissingTranslation'
     }
 
-    signingConfigs {
-        release {
-            storeFile file("../private/my-release-key.keystore")
-            storePassword secureProperties['key.store.password']
-            keyAlias "alias_name"
-            keyPassword secureProperties['key.alias.password']
-        }
-    }
+//LeOS    signingConfigs {
+//LeOS        release {
+//LeOS            storeFile file("../private/my-release-key.keystore")
+//LeOS            storePassword secureProperties['key.store.password']
+//LeOS            keyAlias "alias_name"
+//LeOS            keyPassword secureProperties['key.alias.password']
+//LeOS        }
+//LeOS    }
 
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+//LeOS            signingConfig signingConfigs.release
             minifyEnabled true   // Only enable on actual release builds
             // shrinkResources true // Only enable on actual release builds
             //proguardFile 'proguard-rules.pro'

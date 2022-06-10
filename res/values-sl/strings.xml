@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_full_name" formatted="false">BatteryBot Pro</string>
+  <string name="app_full_name" formatted="false">LeOS Battery</string>
   <string name="app_launcher_name" formatted="false">BatteryBot</string>
   <string name="settings_activity_subtitle" formatted="false">Nastavitve</string>
   <string name="help_activity_subtitle" formatted="false">Pomoč</string>

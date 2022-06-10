@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string formatted="false" name="app_full_name">BatteryBot Pro</string>
-  <string formatted="false" name="app_launcher_name">BatteryBot</string>
+  <string formatted="false" name="app_full_name">LeOS Battery</string>
+  <string formatted="false" name="app_launcher_name">LeOS Battery</string>
   <string formatted="false" name="settings_activity_subtitle">Settings</string>
-  <string formatted="false" name="help_activity_subtitle">BatteryBot Help</string>
+  <string formatted="false" name="help_activity_subtitle">LeOS Battery Help</string>
   <string formatted="false" name="log_view_activity_subtitle">Logs</string>
 
-  <string formatted="false" name="app_full_name_free">BatteryBot</string>
+  <string formatted="false" name="app_full_name_free">LeOS battery</string>
 
   <string formatted="false" name="battery_use_b">View Battery Use</string>
-  <string formatted="false" name="upgrade_donate_b">Upgrade/Donate...</string>
-  <string formatted="false" name="circle_widget">BatteryBot Circle</string>
-  <string formatted="false" name="full_widget">BatteryBot Full</string>
+  <string formatted="false" name="upgrade_donate_b">Donate...</string>
+  <string formatted="false" name="circle_widget">LeOS Battery Circle</string>
+  <string formatted="false" name="full_widget">LeOS Battery Full</string>
   <string formatted="false" name="confirm_disable_hint">
     Hint: Disable this confirmation dialog in the settings...
   </string>
@@ -20,7 +20,7 @@
 
   <string formatted="false" name="confirm_close">Really Close?</string>
   <string formatted="false" name="confirm_close_hint">
-    BatteryBot will be completely closed, and you won\'t see it
+    LeOS Battery will be completely closed, and you won\'t see it
     in your status bar anymore.  Any desktop widgets will be useless.\n
 
     \nIf you just want to leave the main window and keep the service
@@ -33,32 +33,32 @@
 
   <string formatted="false" name="notifications_disabled">Notifications are disabled!</string>
   <string formatted="false" name="notifications_disabled_message">
-    You have blocked all notifications for BatteryBot.  This will
-    prevent BatteryBot from showing any notifications: the main
+    You have blocked all notifications for LeOS Battery.  This will
+    prevent LeOS Battery from showing any notifications: the main
     notification and any alarms you have set will all be blocked.\n
 
-    \nSince BatteryBot allows you to turn the main notification on or off
+    \nSince LeOS Battery allows you to turn the main notification on or off
     separately, as well as temporarily disable any alarms
     you\'ve created, it is stongly recommended that you unblock the
-    BatteryBot notifications.  While they are blocked, it will appear
-    that BatteryBot is broken.\n
+    LeOS Battery notifications.  While they are blocked, it will appear
+    that LeOS Battery is broken.\n
 
     \nPlease press OK to be taken to the system settings where you can
-    unblock notifications for BatteryBot.
+    unblock notifications for LeOS Battery.
   </string>
 
-  <string formatted="false" name="battery_optimized">BatteryBot restricted!</string>
+  <string formatted="false" name="battery_optimized">LeOS Battery restricted!</string>
   <string formatted="false" name="battery_optimized_message">
-    BatteryBot is restricted from running correctly.  This \"battery optimization\"
+    LeOS Battery is restricted from running correctly.  This \"battery optimization\"
     is an Android feature designed to restrict poorly designed apps to prevent them
     from using too much battery in the background.\n
 
-    \nBatteryBot, however, is a well-designed app that must run unrestricted in
+    \nLeOS Battery, however, is a well-designed app that must run unrestricted in
     the background in order to function properly.  It is extremely efficient and
     will not reduce your battery life.\n
 
     \nPlease press OK to be taken to the system settings where you can
-    disable battery optimization for BatteryBot.
+    disable battery optimization for LeOS Battery.
   </string>
 
   <string formatted="false" name="main_notif_chan_name">Main Notification</string>
@@ -243,22 +243,22 @@
 
   <string formatted="false" name="help_cat_changelog">Changelog</string>
   <string formatted="false" name="help_changelog">Please
-    see the <a href="https://www.batterybot.info/changelog">online Changelog</a>.
+    see the <a href="https://github.com/LeOS-GSI/LeOS-Battery/changelog">online Changelog</a>.
   </string>
 
   <string formatted="false" name="help_cat_faq">Frequently Asked Questions</string>
   <string formatted="false" name="help_faq">Please
-    see the <a href="https://www.batterybot.info/faq">online FAQ</a>.
+    see the <a href="https://github.com/LeOS-GSI/LeOS-Battery/faq">online FAQ</a>.
   </string>
 
   <string formatted="false" name="help_cat_website">Website</string>
   <string formatted="false" name="help_website">More
-    infomation is available at the <a href="https://www.batterybot.info/">BatteryBot website</a>.
+    infomation is available at the <a href="https://github.com/LeOS-GSI/LeOS-Battery/">LeOS Battery website</a>.
   </string>
 
   <string formatted="false" name="help_cat_open_source">Open Source</string>
   <string formatted="false" name="help_open_source">This
-    is an open-source project, which means you can <a href="https://www.batterybot.info/sourcecode">download the source
+    is an open-source project, which means you can <a href="https://github.com/LeOS-GSI/LeOS-Battery">download the source
     code</a>.\n
 
     \nYou can read more about the Darshan Computing business
@@ -274,18 +274,13 @@
   </string>
 
   <string formatted="false" name="help_cat_other_apps">My Other Apps</string>
-  <string formatted="false" name="help_other_apps"><a href="market://details?id=com.darshancomputing.tuner">Noteworthy Instrument Tuner</a>
-  is an open-source, ad-free tuner for tuning guitars, ukuleles, and just about any other instrument.\n
+  <string formatted="false" name="help_other_apps">You will find in my f-droid repo https://raw.githubusercontent.com/LeOS-GSI/repo/master/fdroid/repo?\n
 
-  \n<a href="market://details?id=com.swapadoodle.android">Swap-a-Doodle!</a>
-  is a free, fun, and playful social drawing app—create animations just by doodling, and
-  share them with your friends.  Or create together by drawing on the doodles they send you,
-  or even doodling with them in real time.
   </string>
 
   <string formatted="false" name="help_cat_privacy">Privacy</string>
   <string formatted="false" name="help_privacy">
-    BatteryBot does not collect, store, or transmit any personal information.
+    LeOS Battery does not collect, store, or transmit any personal information.
   </string>
 
   <string formatted="false" name="help_cat_no_warranty">No Warranty</string>
@@ -328,12 +323,12 @@
   <string formatted="false" name="help_cat_contact">Contact</string>
   <string formatted="false" name="help_contact">If
     you have a question, a problem, or a comment, please
-    <a href="mailto:support@batterybot.info">email me</a>.
+    <a href="https://t.me/LeOS_Support">contact me</a>.
   </string>
 
   <string formatted="false" name="settings_overview">Overview</string>
   <string formatted="false" name="settings_overview_help">
-    BatteryBot\'s settings are organized into separate pages as described
+    LeOS Battery\'s settings are organized into separate pages as described
     below.  Each page of settings has its own help page describing the
     settings available there.
   </string>
@@ -378,7 +373,7 @@
   <string formatted="false" name="alarm_settings">Alarms</string>
   <string formatted="false" name="alarm_settings_summary">Control notifications for low/full battery</string>
   <string formatted="false" name="alarm_settings_help">
-    You can have BatteryBot notify you when your battery level
+    You can have LeOS Battery notify you when your battery level
     reaches a certain condition (e.g., the battery becomes fully charged,
     the battery level drops below 20%, and many others).
   </string>
@@ -604,7 +599,7 @@
   <string formatted="false" name="pref_enable_logging">Enable Logging</string>
   <string formatted="false" name="pref_enable_logging_summary">Log battery state changes?</string>
   <string formatted="false" name="pref_enable_logging_help">
-    If enabled, BatteryBot will log battery state changes.
+    If enabled, LeOS Battery will log battery state changes.
   </string>
   <string formatted="false" name="pref_max_log_age">Maximum Log Age</string>
   <string formatted="false" name="pref_max_log_age_summary">Delete logs older than:</string>
@@ -631,20 +626,20 @@
 
   <string formatted="false" name="pref_cat_autostart">Autostart</string>
   <string formatted="false" name="pref_autostart_at_boot">Autostart at Boot</string>
-  <string formatted="false" name="pref_autostart_at_boot_summary">Start BatteryBot when device boots:</string>
+  <string formatted="false" name="pref_autostart_at_boot_summary">Start LeOS Battery when device boots:</string>
   <string formatted="false" name="pref_autostart_at_boot_help">
-    Controls whether BatteryBot should start itself
+    Controls whether LeOS Battery should start itself
     automatically when the device boots up.\n
 
     \nThe \"If Running on Shutdown\" option works with regard to
-    whether you\'ve most recently manually started or stopped BatteryBot.
-    So if you kill BatteryBot through some other
-    means, like a task killer, then BatteryBot doesn\'t know
+    whether you\'ve most recently manually started or stopped LeOS Battery.
+    So if you kill LeOS Battery through some other
+    means, like a task killer, then LeOS Battery doesn\'t know
     you stopped it, and it will still start at boot up if you have it
     set to this.\n
 
-    \nNOTE: Android will always start BatteryBot on boot if you have an
-    BatteryBot desktop widgets.  In that case this settings is irrelevant.
+    \nNOTE: Android will always start LeOS Battery on boot if you have an
+    LeOS Battery desktop widgets.  In that case this settings is irrelevant.
   </string>
 
   <string formatted="false" name="predictor_sensitive">Sensitive</string>
@@ -655,7 +650,7 @@
   <string formatted="false" name="pref_cat_predictor">Time-Remaining Estimates</string>
   <string formatted="false" name="pref_prediction_type">Estimate Type</string>
   <string formatted="false" name="pref_prediction_type_help">
-    Here you can select how BatteryBot Pro will predict your remaining
+    Here you can select how LeOS Battery will predict your remaining
     battery life / time until fully charged.\n
 
     \nThe \"Sensitive\" algorithm is strictly based on your last five

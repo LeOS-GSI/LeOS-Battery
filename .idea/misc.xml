@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="res/drawable/a000.xml" value="0.1" />
+        <entry key="res/drawable/a014.xml" value="0.1" />
+        <entry key="res/drawable/a_color_preview_bar.xml" value="0.1" />
+        <entry key="res/drawable/a_color_preview_bar_l.xml" value="0.1" />
+        <entry key="res/drawable/b006.xml" value="0.1" />
+        <entry key="res/drawable/circle.xml" value="0.1" />
+        <entry key="res/drawable/empty.xml" value="0.1" />
+        <entry key="res/drawable/g020.xml" value="0.1" />
+        <entry key="res/drawable/g021.xml" value="0.1" />
+        <entry key="res/drawable/g_color_preview_bar_r.xml" value="0.1" />
+        <entry key="res/drawable/r015.xml" value="0.1" />
+        <entry key="res/drawable/r_color_preview_bar_l.xml" value="0.1" />
+        <entry key="res/drawable/w000.xml" value="0.1" />
+        <entry key="res/layout-land/current_info.xml" value="0.16199649737302976" />
+        <entry key="res/layout/alarm_chan_disabled.xml" value="0.15489130434782608" />
+        <entry key="res/layout/alarm_edit_help.xml" value="0.15489130434782608" />
+        <entry key="res/layout/alarm_item.xml" value="0.15489130434782608" />
+        <entry key="res/layout/alarm_settings_help.xml" value="0.15489130434782608" />
+        <entry key="res/layout/alarms.xml" value="0.15489130434782608" />
+        <entry key="res/layout/alarms_no_notifs.xml" value="0.15489130434782608" />
+        <entry key="res/layout/battery_info.xml" value="0.15489130434782608" />
+        <entry key="res/layout/battery_percent.xml" value="0.15489130434782608" />
+        <entry key="res/layout/circle_app_widget.xml" value="0.15489130434782608" />
+        <entry key="res/layout/color_preview_pref.xml" value="0.15489130434782608" />
+        <entry key="res/layout/current_hack_settings_help.xml" value="0.15489130434782608" />
+        <entry key="res/layout/current_hack_unsupported_pref.xml" value="0.15489130434782608" />
+        <entry key="res/layout/current_info.xml" value="0.15489130434782608" />
+        <entry key="res/layout/current_info_first.xml" value="0.15489130434782608" />
+        <entry key="res/layout/current_info_second.xml" value="0.15489130434782608" />
+        <entry key="res/layout/full_app_widget.xml" value="0.15489130434782608" />
+        <entry key="res/layout/help.xml" value="0.15489130434782608" />
+        <entry key="res/layout/hidden.xml" value="0.15489130434782608" />
+        <entry key="res/layout/log_item.xml" value="0.15489130434782608" />
+        <entry key="res/layout/main_notification.xml" value="0.15489130434782608" />
+        <entry key="res/layout/none.xml" value="0.15489130434782608" />
+        <entry key="res/layout/other_settings_help.xml" value="0.15489130434782608" />
+        <entry key="res/layout/percent_battery.xml" value="0.15489130434782608" />
+        <entry key="res/layout/status_bar_icon_settings_help.xml" value="0.15489130434782608" />
+        <entry key="res/menu-land/main.xml" value="0.178125" />
+        <entry key="res/menu-large/main.xml" value="0.14453125" />
+        <entry key="res/menu/main.xml" value="0.19270833333333334" />
+        <entry key="res/menu/settings.xml" value="0.19270833333333334" />
+        <entry key="res/menu/status_bar_icon_settings.xml" value="0.19270833333333334" />
+        <entry key="res/xml/other_pref_screen.xml" value="0.15489130434782608" />
+        <entry key="res/xml/status_bar_icon_pref_screen.xml" value="0.15489130434782608" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
