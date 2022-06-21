@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string formatted="false" name="app_full_name">LeOS Battery</string>
+  <string formatted="false" name="app_launcher_name">LeOS Battery</string>
+  <string formatted="false" name="settings_activity_subtitle">Asetukset</string>
+  <string formatted="false" name="help_activity_subtitle">LeOS Battery Ohje</string>
+  <string formatted="false" name="log_view_activity_subtitle">Lokit</string>
+
+  <string formatted="false" name="app_full_name_free">LeOS battery</string>
+
+  <string formatted="false" name="battery_use_b">Näytä akunkäyttö</string>
+  <string formatted="false" name="upgrade_donate_b">Lahjoita...</string>
+  <string formatted="false" name="circle_widget">LeOS Battery Ympyrä</string>
+  <string formatted="false" name="full_widget">LeOS Battery Täysi</string>
+  <string formatted="false" name="confirm_disable_hint">
+    Vihje: Poista tämä vahvistusikkuna käytöstä asetuksista...
+  </string>
+  <string formatted="false" name="yes">Kyllä</string>
+  <string formatted="false" name="cancel">Peruuta</string>
+
+  <string formatted="false" name="confirm_close">Suljetaanko todella?</string>
+  <string formatted="false" name="confirm_close_hint">
+    LeOS Battery suljetaan täysin, etkä näe sitä enää
+    tilarivilläsi. Kaikista työpöydän LeOS Battery widgeteistä tulee hyödyttömiä.\n
+
+    \nJos haluat vain sulkea pääikkunan ja pitää taustapalvelun
+    käynnissä, paina peruuta ja sitten käytä laitteesi TAKAISIN
+    toimintoa sulkeaksesi pääikkunan.\n
+
+    \nJos haluat piilottaa ilmoituksen, mutta jatkaa widgetien käyttöä,
+    paina Peruuta ja vaihda asetuksia ilmoituksen piilottamiseksi.
+  </string>
+
+  <string formatted="false" name="notifications_disabled">Ilmoitukset on poistettu käytöstä!</string>
+  <string formatted="false" name="notifications_disabled_message">
+    Olet estänyt kaikki LeOS Batteryn ilmoitukset. Tämä estää LeOS Batterya
+    näyttämästä mitään ilmoituksia: pääilmoitukest ja kaikki asettamasi hälytykset
+    estetään.\n
+
+    \nKoska LeOS Battery antaa mahdollisuuden pääilmoitukset päälle tai pois
+    erikseen, kuten poistaa luomiasi hälytyksiä väliaikaisesti, on suositeltavaa
+    että et estä LeOS Battery ilmoituksia. Kun ne on estettynä, saattaa
+    vaikuttaa siltä kuin LeOS Battery ei toimisi oikein.\n
+
+    \nPaina OK siirtyäksesi järjestelmäasetuksiin, josta voit poistaa
+    LeOS Battery ilmoitusten eston.
+  </string>
+
+  <string formatted="false" name="battery_optimized">LeOS Battery rajoitettu!</string>
+  <string formatted="false" name="battery_optimized_message">
+    LeOS Batterya on rajoitettum eikä se toimi oikein. \"Akun optimointi\"
+    on Androidin ominaisuus, joka on suunniteltu rajoittamaan huonosti suunniteltuja
+    sovelluksia, jotta ne eivät pääse kuluttamaan liikaa akkua taustalla.\n
+
+    \nLeOS Battery on kuitenkin hyvin suunniteltu sovellus, jonka täytyy toimia rajoittamattomana
+    taustalla toimiakseen oikein. Se on erittäin energiatehokas, eikä se vähennä akun kestoa.\n
+
+    \nPaina OK siirtyäksesi järjestelmäasetuksiin, josta voit kytkeä pois akun optimoinnin
+    LeOS Battery sovellukselta.
+  </string>
+
+  <string formatted="false" name="main_notif_chan_name">Pääilmoitus</string>
+  <string formatted="false" name="channel_group_name_alarms">Hälytykset</string>
+
+  <string formatted="false" name="confirm_clear_logs">Tyhjennetäänkö kaikki lokit?</string>
+
+  <string formatted="false" name="configure_log_filter">Mitkä lokitiedot näytetään?</string>
+
+  <string formatted="false" name="okay">OK</string>
+  <string formatted="false" name="none">Ei mitään</string>
+
+  <string formatted="false" name="tab_current_info">Nykytilanne</string>
+  <string formatted="false" name="tab_history">Historia</string>
+
+  <string formatted="false" name="notification_until_charged">" kunnes ladattu"</string>
+  <string formatted="false" name="notification_until_drained">" jäljellä"</string>
+  <string formatted="false" name="activity_until_charged">kunnes ladattu</string>
+  <string formatted="false" name="activity_until_drained">kunnes tyhjä</string>
+
+  <string formatted="false" name="menu_settings">Asetukset</string>
+  <string formatted="false" name="menu_close">Sulje</string>
+  <string formatted="false" name="menu_help">Ohje</string>
+  <string formatted="false" name="menu_rate_and_review">Arioi &amp; Arvostele</string>
+  <string formatted="false" name="menu_clear">Tyhjennä</string>
+  <string formatted="false" name="menu_reverse">Käänteinen järjestys</string>
+  <string formatted="false" name="menu_log_filter">Suodata</string>
+  <string formatted="false" name="menu_export">Vie CSV-tiedostoon</string>
+  <string formatted="false" name="menu_delete_alarm">Poista hälytys</string>
+  <string formatted="false" name="menu_show_seconds">Näytä sekunnit</string>
+  <string formatted="false" name="menu_hide_seconds">Piilota sekunnit</string>
+
+  <string formatted="false" name="percent_symbol">%</string>
+  <string formatted="false" name="degree_symbol">°</string>
+  <string formatted="false" name="fahrenheit">Fahrenheit</string>
+  <string formatted="false" name="fahrenheit_symbol">F</string>
+  <string formatted="false" name="celsius">Celsius</string>
+  <string formatted="false" name="celsius_symbol">C</string>
+  <string formatted="false" name="volt_symbol">V</string>
+
+  <string formatted="false" name="fully_charged_in">Ladattu täyteen:</string>
+  <string formatted="false" name="light_usage">Kevyttä käyttöä jäljellä:</string>
+  <string formatted="false" name="normal_usage">Normaali käyttöä jäljellä:</string>
+  <string formatted="false" name="heavy_usage">Raskasta käyttöä jäljellä:</string>
+  <string formatted="false" name="constant_usage">Jatkuvaa käyttöä jäljellä:</string>
+
+  <string formatted="false" name="press_back_to_leave">Palaa TAKAISIN sulkeaksesi.</string>
+  <string formatted="false" name="press_menu_for_more">Paina VALIKKO saadaksesi lisää kohteita.</string>
+
+  <string formatted="false" name="inaccessible_storage">SD-korttia ei voi käyttää.</string>
+  <string formatted="false" name="inaccessible_w_reason">SD-kortti ei ole käytettävissä: </string>
+  <string formatted="false" name="read_only_storage">SD-kortti on vain lukutilassa.</string>
+  <string formatted="false" name="no_storage_permission">Tallennustilan pääsyoikeutta ei ole myönnetty.</string>
+  <string formatted="false" name="file_written">Tiedosto kirjoitettiin onnistuneesti valittuun sijaintiin.</string>
+
+  <!-- These are used for the CSV export. -->
+  <string formatted="false" name="date">päivä</string>
+  <string formatted="false" name="time">aiaka</string>
+  <string formatted="false" name="status">tila</string>
+  <string formatted="false" name="charge">varausprosentti</string>
+  <string formatted="false" name="temperature">astetta_celsiusta</string>
+  <string formatted="false" name="temperature_f">astetta_fahrenheitia</string>
+  <string formatted="false" name="voltage">voltit</string>
+  <string formatted="false" name="current">milliampeerit</string>
+
+  <string formatted="false" name="status_unplugged">Irroitettu</string>
+  <string formatted="false" name="status_unknown">Tntematon</string>
+  <string formatted="false" name="status_charging">Lataus</string>
+  <string formatted="false" name="status_discharging">Purkaantuminen</string>
+  <string formatted="false" name="status_not_charging">Ei Latausta</string>
+  <string formatted="false" name="status_fully_charged">Ladattu täyteen</string>
+  <string formatted="false" name="status_plugged_in">Kytketty</string>
+
+  <string formatted="false" name="status_boot_completed">Käynnistys Valmis</string>
+
+  <string formatted="false" name="health_unknown">Tuntematon</string>
+  <string formatted="false" name="health_good">Hyvässä kunnossa</string>
+  <string formatted="false" name="health_overheat">Ylikuumennut</string>
+  <string formatted="false" name="health_dead">Kuollut</string>
+  <string formatted="false" name="health_overvoltage">Ylijännite</string>
+  <string formatted="false" name="health_failure">Toimintahäiriö</string>
+  <string formatted="false" name="health_cold">Kylmä</string>
+  <string formatted="false" name="plugged_unplugged">Irroitettu</string>
+  <string formatted="false" name="plugged_ac">(AC)</string>
+  <string formatted="false" name="plugged_usb">(USB)</string>
+  <string formatted="false" name="plugged_unknown">(?)</string>
+  <string formatted="false" name="plugged_wireless">(Langaton)</string>
+
+  <string formatted="false" name="alarm_type_fully_charged">Ladattu täyteen</string>
+  <string formatted="false" name="alarm_type_charge_drops">Varaus tippuu alle</string>
+  <string formatted="false" name="alarm_type_charge_rises">Lataus nousee yli</string>
+  <string formatted="false" name="alarm_type_temperature_drops">Lämpötila  laskee alle</string>
+  <string formatted="false" name="alarm_type_temperature_rises">Lämpötila nousee yli</string>
+  <string formatted="false" name="alarm_type_health_failure">Toimintahäiriö</string>
+  <string formatted="false" name="alarm_type_entry_fully_charged">Tulee täyteen ladatuksi</string>
+  <string formatted="false" name="alarm_type_entry_charge_drops">Varaus tippuu alle...</string>
+  <string formatted="false" name="alarm_type_entry_charge_rises">Lataus nousee yli...</string>
+  <string formatted="false" name="alarm_type_entry_temperature_drops">Lämpötila laskee alle...</string>
+  <string formatted="false" name="alarm_type_entry_temperature_rises">Lämpötila nousee yli...</string>
+  <string formatted="false" name="alarm_type_entry_health_failure">Toimintahäiriö</string>
+
+  <string formatted="false" name="alarm_fully_charged">Akku on ladattu täyteen</string>
+  <string formatted="false" name="alarm_charge_drops">"Akun varaus an alle "</string>
+  <string formatted="false" name="alarm_charge_rises">"Akun varaus on yli "</string>
+  <string formatted="false" name="alarm_temp_drops">"Akun lämpötila on alle "</string>
+  <string formatted="false" name="alarm_temp_rises">"Akun lämpötila on yli "</string>
+  <string formatted="false" name="alarm_health_failure">"Akun kunto on: "</string>
+  <string formatted="false" name="alarm_text">Valitse muokataksesi hälytyksiä.</string>
+
+  <!--string formatted="false" name="alarm_audio_stream_notification">Notification</string>
+  <string formatted="false" name="alarm_audio_stream_alarm">Alarm</string>
+  <string formatted="false" name="pref_alarm_audio_stream">Audio Stream</string>
+  <string formatted="false" name="pref_alarm_audio_stream_summary">Use audio stream:</string-->
+
+  <string formatted="false" name="logs_empty">Lokit ovat tyhjiä</string>
+  <plurals name="n_log_items">
+    <item quantity="one">%d Lokitieto</item>
+    <item quantity="other">%d Lokitiedot</item>
+  </plurals>
+
+  <!-- Keeping these in for now to satisfy linter with default language of unused strings. -->
+  <string formatted="true" name="after_n_hours_unplugged">%1.1f tuntia latauksesta irrotuksesta</string>
+  <string formatted="true" name="after_n_hours_plugged_in">%1.1f tuntia kytkettynä lataukseen</string>
+
+  <string formatted="true" name="after_nh_mm_unplugged">%1$dh %2$dm latauksesta irrotuksesta</string>
+  <string formatted="true" name="after_nh_mm_plugged_in">%1$dh %2$dm kytkettynä laataukseen</string>
+  <string formatted="true" name="after_nm_ms_unplugged">%1$dm %2$ds latauksesta irrotuksesta</string>
+  <string formatted="true" name="after_nm_ms_plugged_in">%1$dm %2$ds kytkettynä lataukseen</string>
+
+  <plurals name="n_hours_long">
+    <item quantity="one">"%d tunti, "</item>
+    <item quantity="other">"%d tuntia, "</item>
+  </plurals>
+
+  <plurals name="n_minutes_long">
+    <item quantity="one">%d minuutti</item>
+    <item quantity="other">%d minuuttia</item>
+  </plurals>
+
+  <plurals name="n_hours_medium">
+    <item quantity="one">"%d h, "</item>
+    <item quantity="other">"%d h, "</item>
+  </plurals>
+
+  <plurals name="n_minutes_medium">
+    <item quantity="one">%d min</item>
+    <item quantity="other">%d min</item>
+  </plurals>
+
+  <plurals name="n_hours_short">
+    <item quantity="other">"%dh "</item>
+  </plurals>
+
+  <plurals name="n_minutes_short">
+    <item quantity="other">%dm</item>
+  </plurals>
+
+  <plurals name="n_days">
+    <item quantity="one">"%d päivä, "</item>
+    <item quantity="other">"%d päivää, "</item>
+  </plurals>
+
+  <plurals name="n_hours">
+    <item quantity="one">%d tunti</item>
+    <item quantity="other">%d tuntia</item>
+  </plurals>
+
+  <string formatted="false" name="discharging_from">Tyhjentynyt tasosta</string>
+  <string formatted="false" name="charging_from">Ladattu tasosta</string>
+  <string formatted="false" name="fully_charged">Ladattu täyteen</string>
+
+  <string formatted="false" name="since">Alkaen</string>
+  <plurals name="for_n_hours">
+    <item quantity="one">For %d tunti</item>
+    <item quantity="other">For %d tuntia</item>
+  </plurals>
+  <string formatted="false" name="currently_using">Tällä hetkellä kytetään</string>
+  <string formatted="false" name="currently_set_to">"Tällä hetkellä asetettu: "</string>
+  <string formatted="false" name="currently_disabled">Tällä hetkellä pois käytöstä</string>
+
+  <string formatted="false" name="help_cat_version">Versio</string>
+
+  <string formatted="false" name="help_cat_changelog">CMuutosloki (Changelog)</string>
+  <string formatted="false" name="help_changelog">Katso
+    <a href="https://github.com/LeOS-GSI/LeOS-Battery/changelog">online Changelog (English / Deutch)</a>.
+  </string>
+
+  <string formatted="false" name="help_cat_faq">Usein kysytyt kysymykset</string>
+  <string formatted="false" name="help_faq">Katso
+    <a href="https://github.com/LeOS-GSI/LeOS-Battery/faq">online FAQ (English / Deutch)</a>.
+  </string>
+
+  <string formatted="false" name="help_cat_website">Websivut</string>
+  <string formatted="false" name="help_website">Lisää
+    saatavissa (English) <a href="https://github.com/LeOS-GSI/LeOS-Battery/">LeOS Battery websivuilta</a>.
+  </string>
+
+  <string formatted="false" name="help_cat_open_source">Avoin lähdekoodi</string>
+  <string formatted="false" name="help_open_source">Tämä
+    on avoimen lähdekoodin projekti, mikä tarkoittaa että voit <a href="https://github.com/LeOS-GSI/LeOS-Battery">ladata sovelluksen
+    lähdekoodin</a>.\n
+
+    \nVoit lukea lisää Darshan Computing business
+    filosofiasta <a href="https://www.darshancomputing.com">Darshan Computing, LLC
+    website</a>.  (Yhteenveto: Aina käyttäjälähtöinen, mainokseton ja hyödyllinen
+    vapaa versio.  Oletusarvoisesti avointa lähdekoodia.)
+  </string>
+
+  <string formatted="false" name="help_cat_donate">Lahjoita</string>
+  <string formatted="false" name="help_donate">Ole hyvä
+    ja harkitse lahjoitusta päivittämällä <a href="market://details?id=com.darshancomputing.BatteryIndicatorPro">Pro
+    Versioon</a>.
+  </string>
+
+  <string formatted="false" name="help_cat_other_apps">Muut sovellukseni</string>
+  <string formatted="false" name="help_other_apps">Löydät muut sovellukseni f-droid ohjelmistolähteestäni, jonka voit asettaa f-droidin ohjelmistolähteisiin:  https://raw.githubusercontent.com/LeOS-GSI/repo/master/fdroid/repo?\n
+
+  </string>
+
+  <string formatted="false" name="help_cat_privacy">Yksityisyys</string>
+  <string formatted="false" name="help_privacy">
+    LeOS Battery ei kerää, tallenna eikä siirrä mitään henkilökohtaisia tietojasi.
+  </string>
+
+  <string formatted="false" name="help_cat_no_warranty">Ei takuuta</string>
+  <string formatted="false" name="help_no_warranty">
+    Tätä ohjelmistoa jaetaan siinä toivossa, että siitä on hyötyä, mutta
+    ILMAN MITÄÄN TAKUUTA; ilman edes implisiittistä takuuta KAUPALLISUUDESTA tai
+    SOVELTUVUUDESTA ERITYISEEN TARKOITUKSEEN.\n
+
+    \nVaikka teen parhaani varmistaakseni, että se toimii hyvin ja ei
+    aiheuta ongelmia, en ole vastuussa mistään vahingoista tai haitoista
+    joita se voi aiheuttaa missään olosuhteissa.
+  </string>
+
+  <string formatted="false" name="help_cat_acknowledgments">Kiitokset</string>
+  <string formatted="false" name="help_acknowledgments">Tämä
+    sovellus olisi saatavilla vain Englanniksi ilman avokätistä
+    vapaaehtoisten kääntäjien apua.  Kiitos!\n
+
+    \nSuuret kiitokset kaikille avoimen lähdekoodin koodaajille. jotka tekivät tämän sovelluksen
+    mahdolliseksi ja jotka innoittivat minua luomaan sen avoimen lähdekoodin sovelluksena.\n
+
+    \nKäynnistyskuvake (pystyssä oleva akku, jonka näet sovelluskaupassa)
+    perustuu kuvakkeeseen <a href="http://www.oxygen-icons.org">
+    Oxygen icon theme</a> ja sitä on käytetty
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Common
+      Attribution-ShareAlike 3.0 Lisenssin</a> mukaisesti.
+  </string>
+
+  <string formatted="false" name="help_cat_translations">Käännökset</string>
+  <string formatted="false" name="help_translations">Tarvitsen
+  apua tämän sovelluksen kääntämisessä uusille kielille ja nykyisten
+  käännösten ylläpitämisessä. Jos haluat auttaa, lähetä minulle
+  <a href="mailto:support%2Btranslations@batterybot.info">sähköpostia</a>.
+  Kerro minulle, jos haluat että nimesi mainitaan tässä osiossa tunnustuksena avustasi. 
+  </string>
+
+  <string formatted="false" name="help_subcat_translators">Kääntäjät</string>
+
+  <string formatted="false" name="help_cat_contact">Yhteydenotto</string>
+  <string formatted="false" name="help_contact">Jos
+    sinulla on kysymys, ongelma tai kommentti, ole hyvä ja
+    <a href="https://t.me/LeOS_Support">ota minuun yhteyttä</a>.
+  </string>
+
+  <string formatted="false" name="settings_overview">Yleiskuvaus</string>
+  <string formatted="false" name="settings_overview_help">
+    LeOS Batteryn asetukset on järjestetty erillisille sivuille alla kuvatulla tavalla.
+    Kullakin asetussivulla on oma ohje, jossa kuvataan siellä käytettävissä olevat asetukset.
+  </string>
+
+  <string formatted="false" name="notifications_disabled_cat">Ilmoitukset poistettu käytöstä</string>
+  <string formatted="false" name="app_notifs_disabled_b">Ota sovellusilmoitukset käyttöön</string>
+  <string formatted="false" name="app_notifs_disabled_summary">Olet poistanut kaikki tämän sovelluksen ilmoitukset käytöstä.  Ota ne käyttöön päästäksesi näihin asetuksiin.</string>
+  <string formatted="false" name="main_notifs_disabled_b">Ota pääilmoitukset käyttöön</string>
+  <string formatted="false" name="main_notifs_disabled_summary">Olet poistanut tämän sovelluksen pääilmoitukset.  Ota ne käyttöön päästäksesi näihin asetuksiin.</string>
+  <string formatted="false" name="app_notifs_alarms_disabled_summary">Olet poistanut kaikki tämän sovelluksen ilmoitukset käytöstä.  Ota ne käyttöön päästäksesi hälytyksiisi.</string>
+  <string formatted="false" name="alarm_notifs_disabled_b">Ota hälytykset käyttöön</string>
+  <string formatted="false" name="alarm_notifs_disabled_summary">Olet poistanut tämän sovelluksen hälytysilmoitusryhmän käytöstä.  Ota ne käyttöön päästäksesi hälytyksiisi.</string>
+  <string formatted="false" name="alarm_chan_disabled">Olet poistanut tämän hälytystyypin ilmoitukset käytöstä.  Ota ne käyttöön käyttääksesi tämän tyyppisiä hälytyksiä.</string>
+  <string formatted="false" name="alarm_chan_disabled_b">Ota käyttöön tämä hälytystyyppi</string>
+  <string formatted="false" name="alarm_chan_settings_b">Hallitse tätä hälytystyyppiä</string>
+
+  <string formatted="false" name="notification_settings">Pääilmoitus</string>
+  <string formatted="false" name="notification_settings_summary">Määritä pääilmoitus</string>
+  <string formatted="false" name="notification_settings_help">
+    Voit määrittää mikä sisältö näytetään ilmoitusvalikon ilmoituksessa.
+  </string>
+  <string formatted="false" name="status_bar_icon_settings">Tilapalkin kuvake</string>
+  <string formatted="false" name="status_bar_icon_settings_summary">Määritä kuvakeryhmä</string>
+  <string formatted="false" name="status_bar_icon_settings_help">
+    Voit valita käytettävän kuvakeryhmän ja muuttaa kuvakeryhmän asetuksia (esim. värejä).
+  </string>
+  <string formatted="false" name="current_hack_settings">Virran (mA) hakkerointi</string>
+  <string formatted="false" name="current_hack_settings_summary">Lisäasetukset mA-tiedon käyttöönottamiseksi</string>
+  <string formatted="false" name="current_hack_settings_help">
+    Android ei tarjoa sovelluksille keinoja käyttää tietoja akun virrasta.
+    Saatavilla on kuitenkin hakkerointi jonka avulla monet laitteet voivat
+    mahdollisesti saada nämä tiedot.\n
+
+    \nTämän ei ole taattu toimivan.  Se ei ehkä toimi lainkaan tai se voi näyttää toimivan,
+    mutta tuloksena voi olla vain järjettömiä arvoja.\n
+
+    \nAsetukset, joilla voit ottaa hakkeroinnin käyttöön, jos se on mahdollista,
+    ja ohjata sen käyttöä on saatavilla tässä osiossa.
+  </string>
+
+  <string formatted="false" name="alarm_settings_subtitle">Hälytysasetukset</string>
+  <string formatted="false" name="alarm_settings">Hälytykset</string>
+  <string formatted="false" name="alarm_settings_summary">Määritä ilmoitukset alhaisesta/täydestä akusta</string>
+  <string formatted="false" name="alarm_settings_help">
+    LeOS Battery voi ilmoittaa sinulle, kun akun varaustaso saavuttaa tietyn tilan (esim. kun akku on täyteen ladattu),
+    akun varaustaso laskee alle 20 prosentin ja monia muita).
+  </string>
+  <string formatted="false" name="other_settings">Muut asetukset</string>
+  <string formatted="false" name="other_settings_help">
+    Kaikki muut asetukset löytyvät tältä sivulta, mukaan lokien kirjaaminen,
+    lukitusnäyttö, lämpötilan yksikkö, automaattinen käynnistys ja paljon muuta.
+  </string>
+
+  <string formatted="false" name="pref_cat_more_settings_in_pro">Lisää asetuksia Pro-versiossa</string>
+  <string formatted="false" name="pref_please_upgrade">
+    Pro-versiossa on paljon enemmän asetuksia ja ominaisuuksia, kuten
+    virran (mA) tiedot,
+    hälytykset,
+    akun tilan kirjaaminen,
+    ja paljon muuta.
+  </string>
+
+  <string formatted="false" name="add_alarm">Lisää hälytys</string>
+  <string formatted="false" name="menu_alarm_channel">Hälytyskanavan asetukset</string>
+
+  <string formatted="false" name="pref_cat_ui_color">Käyttöliittymän väri</string>
+  <string formatted="false" name="pref_ui_color_summary">Sovelluksen ensisijainen väri</string>
+
+  <string formatted="false" name="pref_cat_channel_settings">Ilmoituskanavan asetukset</string>
+  <string formatted="false" name="pref_manage_main_channel">Hallitse pääkanavaa</string>
+
+  <string formatted="false" name="pref_cat_notification_content">Sisältö</string>
+  <string formatted="false" name="pref_top_line_content">Ylärivin sisältö</string>
+  <string formatted="false" name="pref_top_line_content_help">
+    Määritä, mitä ilmoituksen ylärivillä lukee: arvioitu jäljellä oleva aika (määritettävissä toisaalla),
+    kuinka kauan on kulunut kun tila on muuttunut (kytketty, irrotettu tai täyteen ladattu),
+    tai akun elintoiminnot (akun kunto, lämpötila ja jännite).
+  </string>
+  <string formatted="false" name="pref_bottom_line_content">Alarivin sisältö</string>
+  <string formatted="false" name="pref_bottom_line_content_help">
+    Alarivillä on samat vaihtoehdot kuin ylärivillä.
+  </string>
+  <string formatted="false" name="time_remaining">Jäljellä oleva aika</string>
+  <string formatted="false" name="time_since_status_change">Aika tilanmuutoksesta</string>
+  <string formatted="false" name="vital_signs">Elintoiminnot</string>
+
+  <string formatted="false" name="pref_time_remaining_verbosity">Jäljellä olevan ajan sanamuodot</string>
+  <string formatted="false" name="pref_time_remaining_verbosity_help">
+    Laitteita on kaiken muotoisia ja kokoisia, joten useimpien käännösten
+    on syytä olla käyttää lyhenteitä, jotta jäljellä oleva aika-arvio
+    mahtuisi mukavasti ilmoitusalueelle.  Jos se ei vieläkään mahdu,
+    voit valita lyhennetyn muodon.  Jos sinulla on runsaasti tilaa,
+    saatat suosia sanallista asetusta.
+  </string>
+  <string formatted="false" name="condensed">Tiivistetty</string>
+  <string formatted="false" name="normal">Normaali</string>
+  <string formatted="false" name="verbose">Sanallinen</string>
+
+  <string formatted="false" name="pref_status_duration_in_vital_signs">Tilan kesto elintoiminnoissa</string>
+  <string formatted="false" name="pref_status_duration_in_vital_signs_summary">
+    Sisällytä alkaen aika elintoimintojen tilanmuutoksiin?
+  </string>
+  <string formatted="false" name="pref_status_duration_in_vital_signs_help">
+    Jos asetettu, elintoimintorivi sisältää myös tuntimäärän. siitä lähtien,
+    kun laite irrotettiin, kytkettiin tai ladattiin täyteen.
+  </string>
+
+  <string formatted="false" name="system_default">Järjestelmän oletus</string>
+  <string formatted="false" name="black">Musta</string>
+  <string formatted="false" name="white">Valkoinen</string>
+  <string formatted="false" name="ics_blue">Android ICS Sininen</string>
+  <string formatted="false" name="custom">Mukautettu...</string>
+
+  <string formatted="false" name="pref_cat_icon_set">Kuvakeryhmä</string>
+  <string formatted="false" name="pref_icon_set">Kuvakeryhmä</string>
+  <string formatted="false" name="pref_icon_set_help">
+    Android on saatavilla monessa eri muodossa, joten täydellistä
+    kuvakesarjaa ei ole olemassa. joka toimisi hyvin kaikilla laitteilla.
+    Sisäänrakennettuja kuvakekokonaisuuksia on kolme joiden pitäisi tarjota ainakin
+    yksi hyvä vaihtoehto lähes jokaiselle laitteelle.\n
+
+    \n\"Perinteinen\" on alkuperäinen kuvakesarja vuodelta 2009.  Se on
+    edelleen paras vanhemmissa laitteissa, mutta uudemmat Android-versiot
+    (alkaen Android 3.0:sta, Honeycombista) kutistavat ja himmentävät
+    ilmoituskuvakkeita, joten tätä sarjaa on hyvin vaikea lukea.\n
+
+    \n\"Tavallinen numero\" on oletusarvo kaikissa uudemmissa Android-laitteissa.
+    Se on erittäin suuri valkoinen numero, joka näkyy hyvin myös kutistettuna
+    ja himmennettynä.  Se näyttää salaman numeron alla latauksen aikana.\n
+
+    \n\"Pienempi numero\" on kuteb \"Tavallinen numero\" mutta pienempi, koska
+    jotkin uudemmat laitteet eivät kutista kuvaketta kuten stock Android tekee,
+    ja erittäin suuri numero \"Tavallinen numero\" voi näissä laitteissa näyttää
+    koomisen suurelta.
+  </string>
+
+  <string formatted="false" name="pref_cat_current_hack_main">Pääohjaus</string>
+  <string formatted="false" name="pref_cat_current_hack_unsupported">Virran (mA) hakkerointia ei tueta</string>
+
+  <string formatted="false" name="pref_current_hack_unsupported">Valitettavasti tämä laite ei tue virran (mA) hakkerointia.</string>
+  <string formatted="false" name="current_hack_maybe_supported">Hakkerointi SAATTAISI toimia tällä laitteella.</string>
+
+  <string formatted="false" name="pref_enable_current_hack">Ota hakkerointi käyttöön</string>
+  <string formatted="false" name="pref_enable_current_hack_summary">
+    Yritetäänkö ottaa käyttöön virran (mA) hakkerointi?
+  </string>
+  <string formatted="false" name="pref_enable_current_hack_help">
+    Kun tämä asetus on käytössä, muut vaihtoehdot, jotka koskevat hakkerointia
+    ovat käytettävissä.
+  </string>
+
+  <string formatted="false" name="pref_current_hack_prefer_fs">Suosi vanhaa hakkerointimenetelmää</string>
+  <string formatted="false" name="pref_current_hack_prefer_fs_summary">
+    Suosi vanhempaa, tiedostojärjestelmään perustuvaa hakkerointimenetelmää?
+  </string>
+  <string formatted="false" name="pref_current_hack_prefer_fs_help">
+    Lollipopista (Android 5.0) alkaen Android tarjoaa nyt seuraavat ominaisuudet.
+    Hieman vähemmän hakkerimaisen tavan käyttää virran (mA) tietoja, suoraan
+    järjestelmän BatteryManagerista.  Se ei kuitenkaan vieläkään ole taattu,
+    että se toimii lainkaan tai hyvin.  Android Nougat (Android 7.0) saakka
+    vanha (tiedostojärjestelmään perustuva) hakkerointimenetelmä näyttää toimivan
+    paremmin useimmissa laitteissa, joten se on oletusasetuksena edelleen laitteissa
+    joissa on Android 7.0 tai vanhempi.\n
+
+    \nTämä asetus on vain vihje hakkerille siitä, mitä menetelmää kannattaa suosia;
+    voit kokeilla muuttaa sitä, jos hakkerointi ei toimi kunnolla laitteellasi.
+  </string>
+
+  <string formatted="false" name="pref_current_hack_multiplier">Kerroin</string>
+  <string formatted="false" name="pref_current_hack_multiplier_help">
+    Jotkin laitteet ilmoittavat milliampeerit mikroampeerien sijaan,
+    joita API vaatii. Samat laitteet vaihtavat ilmoitetun arvon merkkiä.
+    Jotkin käyttäjät haluavat, että oikein ilmoitettujen arvojen merkki on
+    päinvastainen. Tällaisten tilanteiden helpottamiseksi voit kertoa
+    API-kutsun tuloksen  tällä arvolla.\n
+
+    \nJos laitteesi näyttää esimerkiksi aina 0 mA, voit kokeilla käyttää
+    kerrointa 1000.  Jos API-kutsu palauttaa 450 mikroampeeria, tämä kerroin
+    saa sovelluksen näyttämään arvon arvoksi 450 mA eikä 0 mA.
+    Jos API-kutsu palauttaa 0 mikroampeeria, kerroin ei tietenkään muuta
+    lopullista arvoa. näyttöarvoa 0 mA.
+  </string>
+
+  <string formatted="false" name="pref_cat_current_hack_notification">Ilmoitus</string>
+  <string formatted="false" name="pref_display_current_in_vital_stats">Näytä elintärkeissää tilastoissa</string>
+  <string formatted="false" name="pref_display_current_in_vital_stats_summary">
+    Näyttää virran (mA) pääilmoituksen elintärkeissä tilastoissa?
+  </string>
+  <string formatted="false" name="pref_display_current_in_vital_stats_help">
+    Kun tämä on käytössä, hakkerointia yritetään ja tulos näytetään pääilmoituksessa
+    elintärkeiden tilastojen rivillä.  Huomaa, että sinun on määritettävä pääilmoitus
+    näyttämään elintärkeät tilastot, jotta voit nähdä tämän. Tämä arvo päivittyy vain,
+    kun järjestelmä lähettää uusia akkutietoja.\n
+
+    \nUseimmissa laitteissa negatiivinen arvo tarkoittaa, että akku tyhjenee ja
+    positiivinen arvo osoittaa, että akkua ladataan.  Kaikki laitteet eivät kuitenkaan
+    tuota arvoja tällä tavalla.
+  </string>
+
+  <string formatted="false" name="pref_cat_current_hack_main_window">Pääikkuna/string>
+  <string formatted="false" name="pref_display_current_in_main_window">Näytä pääikkunassa</string>
+  <string formatted="false" name="pref_display_current_in_main_window_summary">
+    Näytä virta (mA) pääikkunassa?
+  </string>
+  <string formatted="false" name="pref_display_current_in_main_window_help">
+    Kun käytössä, hakkerointia yritetään ja tulostiedot näytetään pääikkunassa.
+    Tämä arvo päivitetään aina, kun järjestelmä lähettää uusia akkutietoja,
+    mutta voit päivittää arvon arvon milloin tahansa napauttamalla näytettyä arvoa.
+    (Huom. että jotkin laitteet päivittävät taustalla olevia tietoja harvoin tai
+    eivät päivitä niitä koskaan, joten arvo ei ehkä näytä muuttuvan napautettaessa.)\n
+
+    \nUseimmissa laitteissa negatiivinen arvo tarkoittaa, että akku tyhjenee ja
+    positiivinen arvo osoittaa, että akkua ladataan. Kaikki laitteet eivät kuitenkaan
+    tuota arvoja tällä tavalla.
+  </string>
+
+  <string formatted="false" name="pref_prefer_current_avg_in_vital_stats">Suosi keskiarvoa elintärkeissä tilastoissa</string>
+  <string formatted="false" name="pref_prefer_current_avg_in_vital_stats_summary">
+    Yritä käyttää viran keskiarvoa pääilmoituksen elintärkeissä tilastoissa?
+  </string>
+  <string formatted="false" name="pref_prefer_current_avg_in_main_window">Suosi keskiarvoa pääikkunassa</string>
+  <string formatted="false" name="pref_prefer_current_avg_in_main_window_summary">
+    Yritä käyttää virran keskiarvoa pääikkunassa?
+  </string>
+
+  <string formatted="false" name="pref_prefer_current_avg_help">
+    Joissakin järjestelmissä on käytettävissä vielä yksi hakkerointi,
+    joka antaa tuoreen keskiarvon virrasta sen sijaan, että se olisi hetkellinen
+    lukema. Mitä tämä tarkoittaa, vaihtelee laitteesta toiseen, ja se on
+    käytettävissä vain joissakin laitteissa. Tämä voi antaa vakaamman arvon
+    (jos kaikki menee hyvin), se voi palauttaa saman arvon, tai se voi palauttaa
+    käyttökelvottoman arvon (jolloin tämä vaihtoehto kannattaa kytkeä pois päältä).
+  </string>
+
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window">Automaattinen mA:n päivitys pääikkunassa</string>
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window_summary">
+    Automaattinen mA-päivitys kahden sekunnin välein?
+  </string>
+  <string formatted="false" name="pref_auto_refresh_current_in_main_window_help">
+    Jos olet asettanut hakkeroinnin näyttämään mA:n pääikkunassa, voit päivittää
+    arvon yksinkertaisesti napauttamalla sitä.  Jos haluat nähdä päivitykset
+    usein ilman napauttamista, voit ottaa tämän vaihtoehdon käyttöön, jolloin
+    arvo päivittyy automaattisesti kahden sekunnin välein, ikkunan ollessa näkyvissä.\n
+
+    \nHuomaa, että jotkin laitteet päivittävät harvoin tai eivät koskaan taustalla olevia tietoja,
+    joten arvo ei ehkä näytä muuttuvan, vaikka sovellus on päivittää näytetyn arvon
+    vastaamaan järjestelmästä saatuja tietoja.
+  </string>
+
+  <string formatted="false" name="pref_cat_charging_indicator">Latauksen osoitin</string>
+  <string formatted="false" name="pref_indicate_charging">Osoita lataus</string>
+  <string formatted="false" name="pref_indicate_charging_summary">Muuta kuvaketta näyttämään kun laitetta ladataan?</string>
+  <string formatted="false" name="pref_indicate_charging_help">
+    Jotkin kuvakeryhmät ilmaisevat milloin akkua ladataan,
+    esimerkiksi näyttämällä numeron alapuolella salaman.
+    Poista käytöstä tämä asetus, jos haluat ettei näin tehdä.
+  </string>
+
+  <string formatted="false" name="pref_cat_logging">Lokikirjaus</string>
+  <string formatted="false" name="pref_enable_logging">Ota käyttöön lokikirjaus</string>
+  <string formatted="false" name="pref_enable_logging_summary">Kirjaa akun tilan muutokset?</string>
+  <string formatted="false" name="pref_enable_logging_help">
+    Jos käytössä, LeOS Battery kirjaa akun tilan muutokset.
+  </string>
+  <string formatted="false" name="pref_max_log_age">Lokien maksimi ikä</string>
+  <string formatted="false" name="pref_max_log_age_summary">Poista vanhemmat lokikirjaukset kuin:</string>
+  <string formatted="false" name="pref_max_log_age_help">
+    Jos lokikirjaus on otettu käyttöön, aina kun kytket laitteen,
+    tätä vanhemmat lokikirjaukset poistetaan.
+  </string>
+  <string formatted="false" name="pref_notify_status_duration">Näytä tilan kesto</string>
+  <string formatted="false" name="pref_notify_status_duration_summary">Näytä aika siitä kun tila muuttui, eikä arvio jäljellä olevasta ajasta?</string>
+  <string formatted="false" name="pref_notify_status_duration_help">
+    Ota tämä asetus käyttöön, jos haluat, että pääilmoituksessa näytetään aika siitä,
+    kun tila on muuttunut (esim. \"Irrotettu 5 tuntia sitten\") eikä arviota jäljellä
+    olevasta ajasta. Molemmat osatiedot ovat saatavilla pääikkunasta.
+  </string>
+
+  <string formatted="false" name="pref_cat_temperature_unit">Lämpötilan yksikkö</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit">Muunna Fahrenheiteiksi</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit_help">
+    Android ilmoittaa akun lämpötilan celsiusasteina. Jos haluat nähdä akun
+    lämpötilan mieluummin Fahrenheit-asteina, valitse tämä vaihtoehto,
+    ja sovellus muuntaa sen puolestasi.
+  </string>
+
+  <string formatted="false" name="pref_cat_autostart">Automaattinen käynnistys</string>
+  <string formatted="false" name="pref_autostart_at_boot">Automaattinen käynnistys laitteen käynnistyessä</string>
+  <string formatted="false" name="pref_autostart_at_boot_summary">Käynnistä LeOS Battery, kun laite käynnistyy:</string>
+  <string formatted="false" name="pref_autostart_at_boot_help">
+    Määrittää, pitäisikö LeOS-akun käynnistyä itse automaattisesti,
+    kun laite käynnistyy.\n
+
+    \n\"Käynnistä sammutettaessa\" vaihtoehto toimii sen mukaan,
+    oletko viimeksi käynnistänyt vai pysäyttänyt LeOS Batteryn manuaalisesti.
+    Jos siis lopetat LeOS Batteryn jollakin muulla tavalla, kuten tehtävän
+    tappajalla, LeOS Battery ei tiedä että lopetit sen ja se käynnistyy edelleen
+    käynnistyksen yhteydessä, jos olet ottanut tämän asetuksen käyttöön.\n
+
+    \nHUOMAUTUS: Android käynnistää LeOS Battery -ohjelman aina käynnistyksen
+    yhteydessä, jos sinulla on LeOS Battery -työpöydän widgetit.
+    Siinä tapauksessa tällä asetuksella ei ole merkitystä.
+  </string>
+
+  <string formatted="false" name="predictor_sensitive">Herkkä</string>
+  <string formatted="false" name="predictor_conservative">Konservatiivinen</string>
+  <string formatted="false" name="predictor_since_status_change">Tilanmuutoksen jälkeen</string>
+  <string formatted="false" name="predictor_long_term_ave">Pitkän aikavälin keskiarvo</string>
+
+  <string formatted="false" name="pref_cat_predictor">Arvio jäljellä olevasta ajasta</string>
+  <string formatted="false" name="pref_prediction_type">Arvion tyyppi</string>
+  <string formatted="false" name="pref_prediction_type_help">
+    Täällä voit valita, miten LeOS Battery ennustaa jäljellä
+    olevan akun käyttöiän / ajan täyteen lataukseen asti.\n
+
+    \n\"Herkkä\" algoritmi perustuu tiukasti viimeisen viiden minuutin käyttöön.
+    Jos ensisijainen huolenaiheesi on \"Kuinka kauan minun akkuni kestää, jos
+    jatkan sitä mitä olin tekemässä?\", on tämä oikea algoritmi sinulle.\n
+
+    \n\"Konservatiivinen\" algoritmi on oletusvalinta. Se perustuu myös
+    viimeaikaiseen käyttöön, mutta se yrittää olla poikkeamatta pitkän
+    aikavälin keskiarvosta liian vapaasti.\n
+
+    \nValitse \"Tilanmuutoksen jälkeen\" jotta ennuste perustuisi tiukasti
+    nykyiseen istuntoon.\n
+
+    \nLopuksi voit saada ennusteen, joka perustuu pelkästään sinun pitkän
+    aikavälin keskimääräiseen käyttöön.
+  </string>
+
+  <string formatted="false" name="lang_system_selected">Järjestelmän oletus</string>
+  <string formatted="false" name="pref_cat_language">Kieli</string>
+  <string formatted="false" name="pref_language_override">Kielivalinnan yliajo</string>
+  <string formatted="false" name="pref_language_override_summary">Valitse kieli:</string>
+  <string formatted="false" name="pref_language_override_help">
+    Jos käännös kielellesi on epätäydellinen tai epätarkka ja haluaisit
+    mieluummin toisen, mahdollisesti paremman käännöksen, niin voit
+    tehdä sen täällä.
+  </string>
+
+  <string formatted="false" name="pref_classic_color_mode">Pakota klassinen väritila</string>
+  <string formatted="false" name="pref_classic_color_mode_summary">
+    Tämä ei yleensä toimi; lue ohje
+  </string>
+  <string formatted="false" name="pref_classic_color_mode_help">
+    Android 5.0 (Lollipop) -käyttöjärjestelmästä alkaen värilliset
+    ilmoituskuvakkeet eivät enää virallisesti toimi Androidissa, saaden
+    Classic-kuvakkeen näkymään yhtenäisenä valkoisena. Sovellus käyttää
+    siis oletusarvoisesti näissä laitteissa sovelluksen pelkkää valkoista
+    ääriviivaa ja valkoista numeroa.\n
+
+    \nKaikki laitteet eivät kuitenkaan noudata spesifikaatiota, joten
+    tämä ei ole välttämätöntä, eikä se toimi oikein kaikkialla. Voit yrittää
+    saada Classic-kuvakkeiston toimimaan klassisella tavalla kääntämällä
+    tämän vaihtoehdon päälle. Muista, että useimmissa laitteissa tämä vain
+    tekee kuvakkeesta kiinteän valkoisen.
+  </string>
+
+  <string formatted="false" name="pref_cat_device_specific">Laitekohtaiset asetukset</string>
+  <!--string name="pref_cat_device_specific_help"></string-->
+
+  <string formatted="false" name="alarms_overview">Hälytysten yleiskatsaus</string>
+  <string formatted="false" name="alarms_overview_help">
+    Tällä sivulla voit lisätä uusia hälytyksiä, ottaa nopeasti käyttöön
+    tai poistaa käytöstä olemassa olevia hälytyksiä tai poistaa hälytyksiä.\n
+
+    \nVoit lisätä uuden hälytyksen painamalla \"Lisää hälytys\" - tämä luo uuden
+    hälytyksen ja vie sinut hälytysasetussivulle, jossa voit hallita uuden
+    hälytyksen asetuksia.  Katso lisätietoja sivun ohjeesta.\n
+
+    \n\"Lisää hälytys\"-painikkeen alapuolella on luettelo kaikista hälytyksistä,
+    jotka olet luonut.\n
+
+    \n• Voit muokata olemassa olevaa hälytystä painamalla sitä.
+    \n• TVoit poistaa hälytyksen painamalla sitä pitkään ja
+    valitsemalla sitten \"Poista Hälytys\". (Voit poistaa hälytyksen
+    myös yksittäisistä hälytyksistä. painamalla VALIKKO ja sitten \"Poista hälytys\".)
+    \n• Voit helposti vaihtaa, onko hälytys käytössä, painamalla kytkinpainiketta
+    hälytystekstin vieressä. (Voit myös ottaa käyttöön tai poistaa hälytyksen
+    käytöstä yksittäisen hälytyksen asetussivulla.)
+  </string>
+
+  <string formatted="false" name="pref_alarm_enabled">Ota hälytys käyttöön</string>
+  <!--string name="pref_alarm_enabled_summary"></string-->
+  <string formatted="false" name="pref_alarm_enabled_help">Jos haluat tilapäisesti
+  poistaa hälytyksen käytöstä ilman, että sinun tarvitsee luoda se uudelleen,
+  voit kytkeä sen pois päältä ja takaisin päälle joko täällä tai päähälytysten
+  sivulla.
+  </string>
+
+  <string formatted="false" name="pref_cat_alarm_conditions">Hälytystilanteet</string>
+  <string formatted="false" name="pref_cat_alarm_conditions_help">Täällä voit säätää,
+  mitkä tilanteet laukaisevat hälytyksen.
+  </string>
+  <string formatted="false" name="pref_alarm_type">Hälytys tyyppi</string>
+  <string formatted="false" name="pref_alarm_type_summary">Laukaisee hälytyksen, kun akku:</string>
+  <string formatted="false" name="pref_alarm_type_help">Tällä hetkellä on olemassa viisi hälytystyyppiä,
+  joista voit valita.\n
+
+    \nHälytys \"Täyteen ladattu\" ilmoittaa, kun laitteen kun akun tila
+    muuttuu tilasta \"Lataus\" tilaan \"Täyteen ladattu\". Huomaa, että
+    monissa laitteissa tämä ei välttämättä ole sama asia kuin 100% lataus.\n
+
+    \nLataus- ja lämpötilahälytykset edellyttävät kynnysarvon asettamista
+    sen jälkeen, kun olet valinnut kyseisen hälytystyypin.\n
+
+    \n\"Toimintahäiriö\"  hälytys ilmoittaa sinulle, jos akun kunto on
+    muuttunut joksikin muuksi kuin \"Tuntematon\" tai \"Hyvä kunto\"
+     kuten ilmoitettu Androidin mukaan.
+  </string>
+  <string formatted="false" name="pref_alarm_threshold">Kynnysarvo</string>
+  <string formatted="false" name="alarm_pref_not_used">Ei käytetä tässä hälytystyypissä</string>
+  <string formatted="false" name="pref_alarm_threshold_summary">Hälytyksen kynnysarvo:</string>
+  <string formatted="false" name="pref_alarm_threshold_help">
+    Lataus- ja lämpötilahälytyksiä varten sinun on asetettava lämpötila
+    tai varaustaso, joka laukaisee hälytyksen.
+  </string>
+
+  <string formatted="false" name="boot_pref_always">Aina</string>
+  <string formatted="false" name="boot_pref_never">Ei koskaan</string>
+  <string formatted="false" name="boot_pref_if_running">Jos käynnissä sammutettaessa</string>
+
+  <string formatted="false" name="status_dur_always">Aina</string>
+  <string formatted="false" name="status_dur_after_1h">1 tunnin päästä</string>
+  <string formatted="false" name="status_dur_after_2h">2 tunnin päästä</string>
+  <string formatted="false" name="status_dur_after_3h">3 tunnin päästä</string>
+  <string formatted="false" name="status_dur_after_6h">6 tunnin päästä</string>
+  <string formatted="false" name="status_dur_after_12h">12 tunnin päästä</string>
+
+  <string formatted="false" name="age_1_day">1 päivä</string>
+  <string formatted="false" name="age_2_days">2 päivää</string>
+  <string formatted="false" name="age_4_days">4 päivää</string>
+  <string formatted="false" name="age_1_week">1 viikko</string>
+  <string formatted="false" name="age_2_weeks">2 viikkoa</string>
+  <string formatted="false" name="age_3_weeks">3 viikkoa</string>
+  <string formatted="false" name="age_4_weeks">4 viikkoa</string>
+
+  <string formatted="false" name="icon_set_classic">Perinteinen</string>
+  <string formatted="false" name="icon_set_plain">Tavallinen numero</string>
+  <string formatted="false" name="icon_set_smaller">Pienempi numero</string>
+</resources>
